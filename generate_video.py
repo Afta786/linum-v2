@@ -186,29 +186,24 @@ def parse_args() -> argparse.Namespace:
     )
 
     # Local weight paths (optional - skip HF download if provided)
-    # TODO: Remove these default paths before production push - for local testing only
     parser.add_argument(
         "--model-path",
         type=str,
-        default="/scratch/model/video_gen_model_slim_720p_ep0-ba7020.pt",
         help="Path to local DiT checkpoint (skips HuggingFace download)",
     )
     parser.add_argument(
         "--vae-path",
         type=str,
-        default="/scratch/vae/vae.pth",
         help="Path to local VAE weights (skips HuggingFace download)",
     )
     parser.add_argument(
         "--t5-encoder-path",
         type=str,
-        default="/scratch/t5/text_encoder",
         help="Path to local T5 encoder (skips HuggingFace download)",
     )
     parser.add_argument(
         "--t5-tokenizer-path",
         type=str,
-        default="/scratch/t5/tokenizer",
         help="Path to local T5 tokenizer (skips HuggingFace download)",
     )
 
