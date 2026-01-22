@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linum.ai/field-notes/launch-linum-v2"><strong><font size="5">✨ Check out the launch</font></strong></a>
   <br><br>
-  <a href="https://replicate.com/linum-ai/linum-v2-720p"><img src="assets/replicate.svg" height="32" alt="Replicate"> <strong><font size="5">Try on Replicate</font></strong></a>
+  <a href="https://replicate.com/linum-ai/linum-v2"><img src="assets/replicate.svg" height="32" alt="Replicate"> <strong><font size="5">Try on Replicate</font></strong></a>
 </p>
 
 
